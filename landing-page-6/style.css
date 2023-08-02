@@ -1,0 +1,118 @@
+/* Work Sans and Playfair Display [from https://fonts.google.com/] */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.container {
+  width: 100%;
+  max-width: 1312px;
+  margin: 0 auto;
+}
+
+.container-inner {
+  margin-top: 64px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 0 24px;
+}
+
+/* Left side panel */
+
+.left-side-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/** Content **/
+
+.content {
+  width: 653px;
+  margin-top: 55px;
+  padding-left: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px 0;
+}
+
+.content .title {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  color: #050505;
+}
+
+.content .text {
+  line-height: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 0 32px;
+
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buttons .primary-button {
+  color: #fff;
+  background-color: #050505;
+  padding: 24px 48px;
+  border-radius: 16px;
+}
+
+.buttons .secondary-button {
+  border: 1px solid #333333;
+  padding: 24px 48px;
+  border-radius: 16px;
+}
+
+/** List **/
+
+.list {
+  margin-top: 70px;
+  display: flex;
+  gap: 0 80px;
+
+  border: 1px solid #111111;
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.list-element {
+  width: 91px;
+}
+.list-element .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.list-element .text {
+  margin-top: 8px;
+
+  font-size: 16px;
+  color: #111111;
+}
+
+/* Right side panel */
+
+.image {
+  width: 635px;
+  height: 778px;
+}
