@@ -13,17 +13,20 @@ body {
   max-width: 1312px;
 
   margin: 0 auto;
-  margin-top: 67px;
+}
+
+.container-inner {
+  margin: 64px 0;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 /* Content */
 
 .content {
   width: 450px;
+  padding-left: 64px;
 
   display: flex;
   flex-direction: column;
@@ -32,11 +35,12 @@ body {
 }
 
 .text {
-  font: 24px;
+  font-size: 24px;
   font-weight: 400;
 }
 
 .primary-button {
+  line-height: 18px;
   background-color: #fff;
   color: #232323;
   padding: 24px 48px;
@@ -44,15 +48,14 @@ body {
 }
 
 .image-gallery {
-  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(4, 172px);
+  gap: 8px 18px;
 }
 
 .image {
   width: 172px;
   height: 192px;
-
-  margin-top: 8px;
-  margin-right: 18px;
 }
 
 /** Title **/
