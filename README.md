@@ -4,7 +4,7 @@
 
 This repository contains HTML and CSS layout files for the 50 public landing page designs available in Figma's community.
 
-Being added...
+Being added....
 
 ## Figma Landing Pages Collection
 
