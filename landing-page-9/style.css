@@ -9,10 +9,10 @@ body {
   font-weight: 400;
   color: #363830;
 }
-.page-background {
-  max-width: 100%;
+.intro {
+  width: 100%;
   height: 930px;
-  background: url("backg.jpg");
+  background: url("background_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -23,7 +23,7 @@ body {
   margin: 0 auto;
 }
 
-.container-inner {
+.intro-inner {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
