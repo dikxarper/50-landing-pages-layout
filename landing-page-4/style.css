@@ -9,21 +9,18 @@ body {
 
 .container {
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .container-inner {
   display: flex;
-  gap: 0 112px;
+  justify-content: space-between;
 
   margin: 67px 112px 0 0;
 }
 
 /* Hero Image */
-
-.hero-image {
-  margin-top: 120px;
-  width: 100%;
-}
 
 /* Left Side Panel */
 
