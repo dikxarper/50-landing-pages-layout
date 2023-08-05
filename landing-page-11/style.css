@@ -60,6 +60,7 @@ body {
   display: flex;
   justify-content: space-between;
 
+  margin-top: 56px;
   background-color: #252525;
   padding: 64px;
   border-radius: 40px;
