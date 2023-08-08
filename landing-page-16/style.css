@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+
+  font-family: "Avenir-roman", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #fff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: 1312px;
+  margin: 0 auto;
+}
+
+/* Intro */
+
+.intro {
+  width: 100%;
+  height: 1024px;
+  padding: 64px 0;
+
+  background: url("img/background_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Content */
+
+.content {
+  width: 724px;
+  margin-top: 130px;
+  padding: 40px 56px;
+
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.36),
+    rgba(0, 0, 0, 0.0675)
+  );
+  backdrop-filter: blur(4px);
+  border-radius: 24px;
+}
+
+.content-inner {
+  width: 612px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px 0;
+}
+
+.content-title {
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.content-text {
+  width: 586px;
+}
+
+.content-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #000;
+  line-height: 18px;
+  background: #63e1e1;
+  padding: 24px 48px;
+  border-radius: 36px;
+}
+
+/* List */
+
+.list {
+  display: flex;
+  gap: 0 92px;
+
+  margin-top: 80px;
+  padding: 24px 56px;
+  border: 1px solid #fff;
+  border-radius: 32px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+  backdrop-filter: blur(5px);
+}
+
+.list-element {
+  flex: 1 1 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+
+.list-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.list-title {
+  font-weight: 700;
+}
+
+.list-text {
+  font-size: 18px;
+}
