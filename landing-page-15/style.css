@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+
+  font-family: "Times-regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #252525;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Container */
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1312px;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+/* Intro */
+
+.intro {
+  position: relative;
+
+  width: 100%;
+  padding: 64px 0;
+}
+
+.intro-inner {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-image {
+  margin-top: 116px;
+}
+
+/* Content */
+
+.content {
+  width: 370px;
+}
+
+.content-left {
+  padding-top: 24px;
+}
+
+.content-right .content-inner {
+  width: 280px;
+  margin-top: 40px;
+}
+
+.content-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.content-title {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 18px;
+  color: #fff;
+  background: #457d61;
+  padding: 24px 32px;
+  border-radius: 36px;
+}
+
+/** Content Image **/
+
+.content-media {
+  margin-top: 35px;
+
+  display: flex;
+  gap: 0 22px;
+}
+
+.content-image img {
+  width: 176px;
+  height: 298px;
+  border-radius: 120px;
+}
+
+.content-left .content-image:first-child img {
+  margin-top: 55px;
+}
+
+.content-right .content-image:last-child img {
+  margin-top: 106px;
+}
+
+/* Stars */
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.stars img {
+  position: absolute;
+}
+
+.stars img:first-child {
+  top: 100px;
+  left: 332px;
+}
+
+.stars img:last-child {
+  top: 368px;
+  left: 964px;
+}
+
+@media screen and (max-width: 1312px) {
+  .intro-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-inner {
+    align-items: center;
+  }
+
+  .content {
+    width: 750px;
+
+    text-align: center;
+  }
+
+  .content-right .content-inner {
+    width: 100%;
+  }
+
+  .content-right .content-title {
+    order: 1;
+  }
+
+  .content-right .content-text {
+    order: 2;
+  }
+
+  .content-media {
+    display: none;
+  }
+
+  .stars {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .content {
+    width: 400px;
+  }
+}
