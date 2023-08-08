@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+
+  font-family: "Avenir-roman", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #252525;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: 1312px;
+  margin: 0 auto;
+}
+
+/* Intro */
+
+.intro {
+  position: relative;
+
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.intro-inner {
+  width: 100%;
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 180px 0 64px;
+}
+
+/* Hero Image */
+
+.hero-image {
+  position: absolute;
+  top: 86px;
+  right: 0;
+}
+
+.hero-image img {
+  width: 690px;
+  height: 671px;
+}
+
+/* Content */
+
+.content {
+  width: 483px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px 0;
+}
+
+.content-title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 94px;
+}
+
+.content-button {
+  line-height: 18px;
+  color: #fff;
+  background: #252525;
+  padding: 24px 48px;
+  border-radius: 36px;
+}
+
+/* Collage-chef */
+
+.collage-chef {
+  display: flex;
+  justify-content: space-between;
+}
+
+/** Collage **/
+
+.collage {
+  margin-top: 90px;
+
+  display: flex;
+  gap: 0 24px;
+}
+
+/** Chef **/
+
+.chef {
+  width: 483px;
+  align-self: flex-end;
+}
+
+.chef-title {
+  font-weight: 500;
+}
+
+.chef-title::before {
+  margin-bottom: 16px;
+  content: "";
+  display: block;
+  width: 52px;
+  height: 6px;
+  background: #252525;
+}
+
+.chef-text {
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+.chef-images {
+  display: flex;
+  gap: 0 21px;
+}
