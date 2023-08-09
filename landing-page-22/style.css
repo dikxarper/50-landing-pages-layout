@@ -128,7 +128,7 @@ p {
 /* Image Collection */
 
 .image__collection {
-  margin-top: 72px;
+  margin: 72px 0;
   padding-right: 28px;
 
   display: flex;
