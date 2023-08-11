@@ -1,0 +1,133 @@
+body {
+   margin: 0;
+
+   font-family: 'Poppins', sans-serif;
+   color: #252525;
+   background-color: #E8D9D6;
+}
+
+*, 
+*::after, 
+*::before {
+   box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+   margin: 0;
+}
+
+
+
+/* Container */
+
+.container {
+   width: 100%;
+   max-width: 1312px;
+   margin: 0 auto;
+}
+
+
+
+/* Intro */
+
+.intro {
+   margin-bottom: 10px;
+   padding-bottom: 150px;
+
+   background-image: url('img/hero_image.png');
+   background-repeat: no-repeat;
+   background-position: top right;
+}
+
+.intro__inner {
+   position: relative;
+
+   padding-top: 272px;
+}
+
+
+
+/* Content */
+
+.content {
+   width: 574px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 32px 0; 
+}
+
+.content__title {
+   font-size: 112px;
+   color: #271908;
+   font-weight: 700;
+}
+
+.content__text {
+   font-size: 24px;
+   line-height: 36px;
+}
+
+.content__btn {
+   font-size: 22px;
+   line-height: 18px;
+   color: #fff;
+   text-decoration: none;
+   background-color: #271908;
+   padding: 24px 40px;
+   border-radius: 40px;
+}
+
+.boba_img {
+   position: absolute;
+   top: 45px;
+   left: 56px;
+}
+
+/* List */
+
+.list {
+   margin-bottom: 64px;
+}
+
+.list__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+.list__element {
+   position: relative;
+   width: 32%;
+
+   background-color: #fff;
+   padding: 19.5px;
+   border-radius: 80px;
+}
+
+.list__img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+}
+
+.list__img img {
+   border-radius: 80px;
+}
+
+
+.list__content {
+   padding-left: 170px;
+}
+
+.list__numb {
+   margin-bottom: 15px;
+
+   font-size: 40px;
+   font-weight: 600;
+}   
+
+.list__text {
+   font-size: 18px;
+}
