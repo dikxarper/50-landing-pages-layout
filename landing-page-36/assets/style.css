@@ -1,0 +1,92 @@
+body {
+   margin: 0;
+
+   font-family: 'Roboto Mono', sans-serif;
+   color: #fff;
+}
+
+*, 
+*::after, 
+*::before {
+   box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+   margin: 0;
+}
+
+/* Container */
+
+.main-container {
+   width: 100%;
+   max-width: 1440px;
+   margin: 0 auto;
+
+   background-color: #F4F4F4;
+}
+
+.container {
+   width: 100%;
+   max-width: 1312px;
+   margin: 0 auto;
+}
+
+/* Intro */
+
+.intro {
+   padding: 64px;
+
+   background-color: #111;
+}
+
+.intro__inner {
+   padding: 170px 60px;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 48px;
+
+   text-align: center;
+   background-image: url('img/intro_bg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.intro__title {
+   font-size: 104px;
+   font-weight: 700;
+}
+
+.intro__text {
+   font-size: 28px;
+   font-weight: 400;
+}
+
+/* Card */
+
+.card {
+   display: grid;
+   grid-template-columns: repeat(2, 450px);
+   gap: 48px;
+}
+
+.card__element {
+   display: flex;
+   align-items: center;
+
+   background: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,0));
+   padding: 24px 32px;
+   border: 1px solid #fff;
+   border-radius: 24px;
+}
+
+.card__element i {
+   font-size: 42px;
+}
+
+.card__text {
+   font-size: 18px;
+   line-height: 27px;
+   font-weight: 500;
+}
