@@ -1,0 +1,169 @@
+body {
+   margin: 0;
+
+   font-family: 'Poppins', sans-serif;
+   color: #333;
+}
+
+*, 
+*::after, 
+*::before {
+   box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+   margin: 0;
+}
+
+/* Container */
+
+.main-container {
+   width: 100%;
+   max-width: 1440px;
+   margin: 0 auto;
+
+   background-color: #F4F4F4;
+}
+
+.container {
+   width: 100%;
+   max-width: 1312px;
+   margin: 0 auto;
+}
+
+/* Intro */
+
+.intro {
+   margin: 64px 0;
+}
+
+.intro__inner {
+   border: 2px solid #333;
+}
+
+.intro__header {
+   border-bottom: 2px solid #333;
+   text-align: center;
+}
+
+.intro__header h1 {
+   font-size: 72px;
+   font-weight: 700;
+}
+
+.intro__body {
+   display: flex;
+}
+
+/* Main Content */
+
+.main-content {
+   width: 50%;
+   margin-left: 76px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 64px;
+
+   border-right: 2px solid #333;
+}
+
+/* Content */
+
+.content {
+   width: 540px;
+   margin-top: 50px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 24px;
+}
+
+.content__title {
+   font-size: 48px;
+   line-height: 61px;
+   font-weight: 500;
+}
+
+.content__text {
+   font-size: 24px;
+   line-height: 34px;
+   font-weight: 400;
+}
+
+.content__btn {
+   font-size: 22px;
+   line-height: 18px;
+   font-weight: 500;
+   color: #fff;
+   text-decoration: none;
+   background-color: #333;
+   padding: 24px 40px;
+   border-radius: 40px;
+   box-shadow: 8px 8px 0 0 #000;
+}
+
+/* Card */
+
+.card {
+   display: grid;
+   grid-template-columns: repeat(2, 165px);
+   gap: 24px 56px;
+   
+   background-color: #fff;
+   padding: 24px 36px;
+   border: 2px solid #333;
+   border-radius: 32px;
+}
+
+.card__element {
+   width: 165px;
+}
+
+.card__count {
+   font-size: 22px;
+   font-weight: 600;
+}
+
+.card__element:nth-child(-n + 2)::after {
+   margin-top: 24px;
+   content: '';
+   display: block;
+   width: 40%;
+   height: 6px;
+   background-color: #333;
+}
+
+.card__text {
+   font-size: 14px;
+   font-weight: 300;
+}
+
+/* Intro Gallery */
+
+.intro__gallery {
+   width: 50%;
+
+   display: grid;
+   grid-template-columns: 325px 306px;
+   grid-template-rows: repeat(3, 240px);
+
+   gap: 24px;
+}
+
+.intro__img:nth-child(1) {
+   margin-top: 15px;
+
+   justify-self: center;
+}
+
+.intro__img:nth-child(3) {
+   grid-row: 2 / 4;
+   align-self: stretch;
+}
+
+.intro__img:nth-child(5) {
+   margin-top: 3px;
+}
