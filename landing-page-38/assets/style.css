@@ -1,0 +1,169 @@
+body {
+   margin: 0;
+
+   font-family: 'Poppins', sans-serif;
+   color: #333;
+}
+
+*, 
+*::after, 
+*::before {
+   box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+   margin: 0;
+}
+
+/* Container */
+
+.main-container {
+   width: 100%;
+   max-width: 1440px;
+   margin: 0 auto;
+
+   background-color: #F4F4F4;
+}
+
+.container {
+   width: 100%;
+   max-width: 1312px;
+   margin: 0 auto;
+}
+
+/* Intro */
+
+.intro {
+   padding-bottom: 64px;
+}
+
+.intro__inner {
+   position: relative;
+}
+
+/* Content */
+
+.content {
+   width: 822px;
+   margin-bottom: 76px;
+
+   border-radius: 0 0 350px 0;
+   background-color: #F2F2F2;
+   padding: 102px 55px 67px 0;
+}
+
+.content__inner {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 32px;
+}
+
+.content__title {
+   font-size: 56px;
+   line-height: 72px;
+   font-weight: 600;
+}
+
+.content__title span {
+   color: #437223;
+}
+
+.content__text {
+   width: 512px;
+}
+
+.content__text p {
+   font-size: 24px;
+   line-height: 36px;
+   font-weight: 400;
+}
+
+.content__btn {
+   font-size: 24px;
+   line-height: 18px;
+   font-weight: 500;
+   color: #fff;
+   text-decoration: none;
+   background-color: #437223;
+   padding: 24px 56px;
+   border-radius: 40px
+}
+
+.content__list {
+   display: flex;
+   gap: 40px;
+}
+
+.content__list__element {
+   width: 120px;
+   padding: 12px 12px 12px 0;
+}
+
+.content__list__count {
+   margin-bottom: 8px;
+
+   font-size: 22px;
+   font-weight: 600;
+}
+
+.content__list__count::after {
+   content: '';
+   display: block;
+   width: 39%;
+   height: 3px;
+   margin-top: 8px;
+
+   background-color: #333;
+}
+
+.content__list__text {
+   font-size: 14px;
+   font-weight: 400;
+}
+
+
+/* Hero Image */
+
+.hero-image {
+   position: absolute;
+   top: 94px;
+   right: 33px;
+   z-index: 1;
+}
+
+/* Font Circle */
+
+.font-circle {
+   position: absolute;
+   top: 64px; 
+   right: 0;
+   z-index: 2; 
+}
+
+/* Card */
+
+.card {
+   display: flex;
+   gap: 24px;
+}
+
+.card__element { 
+   flex: 1 1 0;
+   position: relative;
+   padding: 30px 16px;
+
+   border: 1px solid #333;
+   border-radius: 16px;
+}
+
+.card__img {
+   position: absolute;
+   left: 30px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.card__text {
+   padding-left: 110px;
+}
