@@ -1,8 +1,9 @@
 body {
-    margin: 0;
-    font-family: "avenirroman", sans-serif;
-    font-size: 26px;
-    color: #252525;
+  margin: 0;
+
+  font-family: "avenirroman", sans-serif;
+  font-size: 26px;
+  color: #252525;
 }
 
 *, 
@@ -22,12 +23,14 @@ h1,h2,h3,h4,h5,h6,p {
 .page-container {
     width: 100%;
     max-width: 1440px;
+
     margin: 0 auto;
 }
 
 .container {
     width: 100%;
     max-width: 1312px;
+
     margin: 0 auto;
 }
 
@@ -35,8 +38,31 @@ h1,h2,h3,h4,h5,h6,p {
 
 /* Intro */
 
+.intro {
+    margin-bottom: 75px;
+}
+
 .intro__inner {
-    padding: 64px 0;
+    padding-top: 65px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__gallery {
+    display: flex;
+    gap: 35px;
+
+    margin-top: 65px;
+}
+
+.intro__img {
+    width: 408px;
+    height: 480px;
+}
+
+.intro__img:first-child{
+    margin-top: 88px;
 }
 
 
@@ -44,19 +70,17 @@ h1,h2,h3,h4,h5,h6,p {
 /* Content */
 
 .content {
-    width: 610px;
-    margin: 0 auto 64px;
+    width: 444px;
+    margin-top: 10px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 24px;
-
-    text-align: center;
 }
 
 .content__title {
-    font-size: 64px;
+    font-size: 56px;
     line-height: 80px;
     font-weight: 900;
 }
@@ -69,7 +93,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .content__btn {
-    padding: 18px 48px;
+    padding: 16px 32px;
 
     font-size: 18px;
     line-height: 18px;
@@ -82,15 +106,26 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 
-/* Image List */
+/* Card */
 
-.image-list {
-    display: flex;
-    flex-flow: row wrap;
-    gap: 16px;
+.card {
+    margin-bottom: 64px;
 }
 
-.list__element {
-    width: 316px;
-    height: 288px;
+.card__inner {
+    display: flex;
+    gap: 40px;
+}
+
+.card__numb {
+    margin-bottom: 4px;
+
+    font-size: 40px;
+    font-weight: 900;
+    opacity: .25;
+}
+
+.card__img {
+    width: 412px;
+    height: 381px;
 }
