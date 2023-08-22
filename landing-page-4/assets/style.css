@@ -1,15 +1,15 @@
 body {
-  margin: 0;
+    margin: 0;
 
-  font-family: "avenirroman", sans-serif;
-  font-size: 26px;
-  color: #252525;
+    font-family: "avenirroman", sans-serif;
+    font-size: 26px;
+    color: #252525;
 }
 
 *, 
 *::after, 
 *::before {
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -36,87 +36,95 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 
-/* Intro */
-.container {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+/* Section */
+
+.section__inner {
+    padding-top: 64px;
+    
+    display: flex;
+    justify-content: space-between;
 }
 
-.container-inner {
-  display: flex;
-  justify-content: space-between;
-
-  margin: 67px 112px 0 0;
+.section__img {
+    flex: 1 0 0;
 }
 
-/* Hero Image */
-
-/* Left Side Panel */
-
-.image {
-  width: 716px;
-  height: 932px;
+.section__img img {
+    max-width: 100%;
+    height: auto;
 }
 
-/* Right Side Panel */
+.section__content {
+    flex: 1 0 0;
 
-.right-side-panel {
-  width: 500px;
-  margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/** Content **/
+
+
+/* Content */
 
 .content {
-  width: 100%;
+    width: 500px;
+    margin-top: 16px;
 
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
 }
 
-.content .text {
-  font-size: 26px;
-  font-weight: 400;
-  opacity: 80%;
+.content__title {
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 900;
 }
 
-.content .title {
-  font-size: 64px;
-  font-weight: 900;
-  line-height: 80px;
+.content__text {
+    font-size: 26px;
+    font-weight: 400;
+    opacity: .8;
 }
 
-.primary-button {
-  font-size: 18px;
-  line-height: 18px;
-  padding: 18px 48px;
-  background-color: #252525;
-  color: #fff;
-  border-radius: 16px;
+.content__btn {
+    padding: 18px 48px;
+
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+
+    background-color: #252525;
+    border-radius: 16px;
 }
 
-/** Text List **/
 
-.text-list {
-  width: 100%;
-  margin-top: 88px;
 
-  display: flex;
-  flex-direction: column;
-  gap: 40px 0;
+/* List */
+
+.list {
+    width: 500px;
+    margin-top: 88px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
 }
 
-.list-element .number {
-  font-size: 32px;
-  font-weight: 900;
-  opacity: 55%;
+.list__numb {
+    margin-bottom: 4px;
+    
+    font-size: 32px;
+    font-weight: 900;
+    opacity: .55;
 }
 
-.list-element .text {
-  margin-top: 4px;
-  font-size: 24px;
-  opacity: 80%;
+.list__text {
+    font-size: 24px;
+    font-weight: 400;
+    opacity: .8;
 }

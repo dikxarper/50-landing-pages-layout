@@ -1,59 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="container-inner">
-        <div class="left-side-panel">
-          <img class="logo" src="img/circle_logo.png" alt="Circle Logo" />
+    <link rel="stylesheet" href="assets/style.css" />
 
-          <div class="content">
-            <div class="title">
-              THE eWatch with the newest microchip technology
-            </div>
-            <div class="text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-              in libero risus semper habitant arcu eget. Et integer facilisi
-              eget diam.
-            </div>
-            <div class="buttons">
-              <div class="primary-button">Order now</div>
-              <div class="secondary-button">Explore more</div>
-            </div>
-          </div>
+    <!-- Font: Avenir [custom built] -->
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css" />
 
-          <div class="list">
-            <div class="list-element">
-              <img class="icon" src="img/icon/sun_icon.png" alt="List Icon 1" />
-              <div class="text">Lorem ipsu dolor amet</div>
-            </div>
-            <div class="list-element">
-              <img
-                class="icon"
-                src="img/icon/star_icon.png"
-                alt="List Icon 2"
-              />
-              <div class="text">Lorem ipsu dolor amet</div>
-            </div>
-            <div class="list-element">
-              <img class="icon" src="img/icon/eye_icon.png" alt="List Icon 3" />
-              <div class="text">Lorem ipsu dolor amet</div>
-            </div>
-            <div class="list-element">
-              <img class="icon" src="img/icon/web_icon.png" alt="List Icon 4" />
-              <div class="text">Lorem ipsu dolor amet</div>
-            </div>
-          </div>
-        </div>
-        <div class="right-side-panel">
-          <img class="image" src="img/product_image.jpg" alt="Product Image" />
-        </div>
-      </div>
-    </div>
-  </body>
+    <!-- Font: Work Sans, Playfair Display [from https://fonts.google.com] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6a5d0b38f1.js" crossorigin="anonymous"></script>
+
+    <title>Landing page 6</title>
+</head>
+<body>
+    <div class="page-container">
+
+        <div class="intro">
+            <div class="container">
+                <div class="intro__inner">
+
+                    <div class="intro__img">
+                        <img src="assets/img/intro_image.jpg" alt="Intro Image">
+                    </div>
+
+                    <div class="intro__body">
+                        <div class="intro__circle">
+                            <img src="assets/img/font_circle.png" alt="Font Circle">
+                        </div>
+
+                        <div class="content">
+                            <h1 class="content__title">THE eWatch with the newest microchip technology</h1>
+                            <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.</p>
+                            <div class="content__btns">
+                                <a class="content__btn content__btn--primary" href="#">Order now</a>
+                                <a class="content__btn content__btn--secondary" href="#">Explore more</a>
+                            </div>
+                        </div>
+                        
+                        <div class="list">
+                            <div class="list__element">
+                                <div class="list__icon">
+                                    <i class="fa-solid fa-sun"></i> 
+                                </div>
+                                <div class="list__text">Lorem ipsu dolor amet</div>
+                            </div>
+                            <div class="list__element">
+                                <div class="list__icon">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="list__text">Lorem ipsu dolor amet</div>
+                            </div>
+                            <div class="list__element">
+                                <div class="list__icon">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                                <div class="list__text">Lorem ipsu dolor amet</div>
+                            </div>
+                            <div class="list__element">
+                                <div class="list__icon">
+                                    <i class="fa-solid fa-globe"></i>
+                                </div>
+                                <div class="list__text">Lorem ipsu dolor amet</div>
+                            </div>
+                        </div>
+
+                    </div> <!-- /.intro__body -->
+                </div> <!-- /.intro__inner -->
+            </div> <!-- /.container -->
+        </div> <!-- /.intro -->
+
+    </div> <!-- /.page-container -->
+</body>
 </html>
