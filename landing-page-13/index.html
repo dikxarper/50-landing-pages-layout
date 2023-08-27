@@ -1,83 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="fonts/stylesheet.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="intro">
-      <div class="container">
-        <div class="intro-inner">
-          <div class="content">
-            <div class="content-inner">
-              <div class="title">Create your design</div>
-              <div class="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Faucibus in libero risus semper habitant arcu eget.
-              </div>
-              <div class="primary-button">Explore</div>
-            </div>
-            <img
-              class="gradient-background"
-              src="img/gradient_background.jpg"
-            />
-          </div>
+    <link rel="stylesheet" href="assets/style.css" />
 
-          <div class="panel-layout">
-            <div class="side-panel side-panel-left">
-              <div class="text-card">
-                <div class="number">01</div>
-                <div class="text">
-                  Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit.
-                  Faucibus in libero risus.
-                </div>
-              </div>
-              <div class="image-container">
-                <img class="image" src="img/image_left.png" alt="Image Left" />
-              </div>
-            </div>
+    <!-- Font: Poppins [from https://fonts.google.com] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-            <div class="side-panel side-panel-right">
-              <div class="text-card">
-                <div class="number">02</div>
-                <div class="text">
-                  Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit.
-                  Faucibus in libero risus.
-                </div>
-              </div>
-              <div class="image-container">
-                <img
-                  class="image"
-                  src="img/image_right.png"
-                  alt="Image Right"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Font: Times [custom built] -->
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
 
-        <div class="vector-images">
-          <img
-            class="image"
-            src="img/vector_images/explosion.png"
-            alt="Explosion"
-          />
-          <img
-            class="image"
-            src="img/vector_images/star_1.png"
-            alt="Big Star"
-          />
-          <img
-            class="image"
-            src="img/vector_images/star_2.png"
-            alt="Small Star"
-          />
-          <img class="image" src="img/vector_images/party.png" alt="Party" />
-        </div>
-      </div>
-    </div>
-  </body>
+    <title>Landing page 13</title>
+</head>
+<body>
+    <div class="page-container">
+
+        <div class="section">
+            <div class="container">
+                <div class="section__inner">
+
+                    <div class="card card--top">
+                        <h6 class="card__numb">01</h6>
+                        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus.</p>
+                    </div>
+
+                    <div class="content">
+                        <div class="content__inner">
+                            <h1 class="content__title">Create your design</h1>
+                            <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget.</p>
+                            <a class="content__btn" href="#">Explore</a>
+                        </div>
+
+                        <img class="content__bg" src="assets/img/content_bg.png" alt="Content Background">
+
+                    </div>
+
+                    <div class="card card--bottom">
+                        <h6 class="card__numb">02</h6>
+                        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus.</p>
+                    </div>
+
+                </div> <!-- /.section__inner -->
+            </div> <!-- /.container -->
+        </div> <!-- /.section -->
+
+    </div> <!-- /.page-container -->
+</body>
 </html>

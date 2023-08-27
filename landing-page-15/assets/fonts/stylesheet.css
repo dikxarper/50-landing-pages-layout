@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Times-bold";
+  font-family: "timesbold";
   src: url("times_bold-webfont.woff2") format("woff2"),
     url("times_bold-webfont.woff") format("woff");
   font-weight: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Times-regular";
+  font-family: "timesregular";
   src: url("timesr-webfont.woff2") format("woff2"),
     url("timesr-webfont.woff") format("woff");
   font-weight: normal;
