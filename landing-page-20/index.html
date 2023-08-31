@@ -3,120 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Font: Avenir [custom pack] -->
-    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link rel="stylesheet" href="assets/style.css">
 
     <!-- Font: Poppins, Playfair Display [from https://fonts.google.com/] -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
 
-    <title>Document</title>
+    <!-- Font: Avenir [custom built] --->
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+
+    <title>Landing page 20</title>
   </head>
-  <body>
+<body>
+<div class="page-container">
+
     <div class="intro">
-      <div class="container">
-        <div class="content-heroImage">
-          <div class="content">
-            <h1 class="content-title">
-              Your coffee <br />
-              Your vibe <br />
-              Your energy
-            </h1>
-            <div class="content-text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Faucibus in libero risus semper habitant arcu eget. Et integer
-                facilisi eget.
-              </p>
+        <div class="container container--intro">
+            
+            <div class="content">
+                <h1 class="content__title">Your coffee <br> Your vibe <br> Your energy</h1>
+                <div class="content__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget.</p>
+                </div>
+                <a class="content__btn" href="#">Explore</a>
             </div>
-            <div class="content-button">Explore</div>
-          </div>
-          <div class="hero-image">
-            <img src="img/hero_image.png" alt="Hero Image" />
-          </div>
-        </div>
-      </div>
-      <!-- /container -->
 
-      <div class="list">
-        <div class="list-element">
-          <img
-            class="list-icon"
-            src="img/icons/coffee_icon.png"
-            alt="Coffee Icon"
-          />
-          <h3 class="list-title">190+</h3>
-          <p class="list-text">Lorem ipsum dolor sit amet, consectetur</p>
+            <div class="intro__img">
+                <img src="assets/img/intro__img.png" alt="Intro Image">
+            </div>
         </div>
-        <div class="list-element">
-          <img
-            class="list-icon"
-            src="img/icons/coffee_icon.png"
-            alt="Coffee Icon"
-          />
-          <h3 class="list-title">123K</h3>
-          <p class="list-text">Lorem ipsum dolor sit amet, consectetur</p>
-        </div>
-        <div class="list-element">
-          <img
-            class="list-icon"
-            src="img/icons/coffee_icon.png"
-            alt="Coffee Icon"
-          />
-          <h3 class="list-title">58</h3>
-          <p class="list-text">Lorem ipsum dolor sit amet, consectetur</p>
-        </div>
-      </div>
-
-      <section class="section">
-        <div class="section-element">
-          <img
-            class="section-image"
-            src="img/section_bottom/image_1.jpg"
-            alt="Image 1"
-          />
-          <p class="section-text">Et integer facilisi eget</p>
-        </div>
-        <div class="section-element">
-          <img
-            class="section-image"
-            src="img/section_bottom/image_2.jpg"
-            alt="Image 2"
-          />
-          <p class="section-text">Et integer facilisi eget</p>
-        </div>
-        <div class="section-element">
-          <img
-            class="section-image"
-            src="img/section_bottom/image_3.jpg"
-            alt="Image 3"
-          />
-          <p class="section-text">Et integer facilisi eget</p>
-        </div>
-        <div class="section-element">
-          <img
-            class="section-image"
-            src="img/section_bottom/image_4.jpg"
-            alt="Image 4"
-          />
-          <p class="section-text">Et integer facilisi eget</p>
-        </div>
-        <div class="section-element">
-          <img
-            class="section-image"
-            src="img/section_bottom/image_5.jpg"
-            alt="Image 5"
-          />
-          <p class="section-text">Et integer facilisi eget</p>
-        </div>
-      </section>
     </div>
-    <!-- /intro -->
-  </body>
+
+    <div class="section">
+        <div class="container">
+            
+            <div class="list">
+                <div class="list__element">
+                    <img class="list__icon" src="assets/img/coffee__icon.png" alt="Icon Image">
+                    <h4 class="list__title">190+</h4>
+                    <p class="list__text">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <div class="list__element">
+                    <img class="list__icon" src="assets/img/coffee__icon.png" alt="Icon Image">
+                    <h4 class="list__title">123K</h4>
+                    <p class="list__text">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                <div class="list__element">
+                    <img class="list__icon" src="assets/img/coffee__icon.png" alt="Icon Image">
+                    <h4 class="list__title">58</h4>
+                    <p class="list__text">Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+            </div>
+
+            <div class="list-image">
+                <div class="list-image__element">
+                    <img class="list-image__img" src="assets/img/section/1.jpg" alt="Image 1">
+                    <p class="list-image__text">Et integer facilisi eget</p>
+                </div>
+                <div class="list-image__element">
+                    <img class="list-image__img" src="assets/img/section/2.jpg" alt="Image 2">
+                    <p class="list-image__text">Et integer facilisi eget</p>
+                </div>
+                <div class="list-image__element">
+                    <img class="list-image__img" src="assets/img/section/3.jpg" alt="Image 3">
+                    <p class="list-image__text">Et integer facilisi eget</p>
+                </div>
+                <div class="list-image__element">
+                    <img class="list-image__img" src="assets/img/section/4.jpg" alt="Image 4">
+                    <p class="list-image__text">Et integer facilisi eget</p>
+                </div>
+                <div class="list-image__element">
+                    <img class="list-image__img" src="assets/img/section/5.jpg" alt="Image 5">
+                    <p class="list-image__text">Et integer facilisi eget</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>

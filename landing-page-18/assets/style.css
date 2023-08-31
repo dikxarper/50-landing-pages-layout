@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #252525;
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+
+
+/* Container */
+
+.page-container {
+    width: 100%;
+    max-width: 1440px;
+
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1312px;
+
+    margin: 0 auto;
+}
+
+
+
+/* Section */
+
+.section {
+    padding: 64px 0;
+}
+
+.section__header {
+    margin: 46px 0 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__header .aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__header .aside--right {
+    flex-direction: column-reverse;
+}
+
+
+
+/* Content */
+
+.content {
+    width: 440px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px 0;
+
+    text-align: center;
+}
+
+.content__title {
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.content__text {
+    line-height: 32px;
+}
+
+.content__btn {
+    padding: 16px 32px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    
+    background: #252525;
+    border-radius: 24px;
+}
+
+
+
+/* Image Gallery */
+
+.image__gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 180px 257px 291px 257px 180px;
+    grid-template-rows: repeat(2, 291px);
+    gap: 0 24px;
+}
+
+.gallery__element img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery__text{
+    font-size: 28px;
+    font-style: italic;
+    line-height: 48px;
+}
+
+.gallery__text::after {
+    margin-top: 24px;
+    content: "";
+    display: block;
+    width: 92%;
+    height: 6px;
+    background: #252525;
+}
+
+.gallery__element:nth-child(2) img {
+    grid-row: span 2;
+    grid-column: 3;
+}
+
+.gallery__element:nth-child(4) img {
+    margin-top: 35px;
+}
+
+.gallery__element:nth-child(5) img {
+    margin-top: 115px;
+}
+
+.gallery__element:nth-child(6) img {
+    margin-top: -60px;
+}
+
+.gallery__element:nth-child(8) {
+    align-self: flex-end;
+    grid-column: 4;
+}
+
+.gallery__element:nth-child(9) {
+    align-self: flex-end;
+    padding-left: 80px;
+    text-align: center;
+}

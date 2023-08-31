@@ -1,77 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
 
     <!-- Font: Poppins [from https://fonts.google.com] -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 
     <title>Landing page 18</title>
-  </head>
-  <body>
-    <div class="intro">
-      <div class="container">
-        <div class="intro-inner">
-          <div class="intro-header">
-            <div class="image-container">
-              <img src="img/intro_header/wave_shape.png" alt="Wave Shape" />
-              <img src="img/intro_header/circle_font.png" alt="Circle Font" />
-            </div>
-            <div class="content">
-              <h1 class="content-header">Your ultimate fashion outfits</h1>
-              <p class="content-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Faucibus in libero risus
-              </p>
-              <div class="content-button">Explore</div>
-            </div>
-            <div class="image-container">
-              <img src="img/intro_header/circle_font.png" alt="Circle Font" />
-              <img src="img/intro_header/wave_shape.png" alt="Wave Shape" />
-            </div>
-          </div>
+</head>
+<body>
+    <div class="page-container">
 
-          <div class="image-gallery">
-            <div class="gallery-element">
-              <p>Exclusive gifts. Insider access. Special events.</p>
-            </div>
-            <div class="gallery-element">
-              <img src="img/img_gallery/image_1.jpg" alt="Image 1" />
-            </div>
-            <div class="gallery-element">
-              <img src="img/img_gallery/image_2.jpg" alt="Image 2" />
-            </div>
-            <div class="gallery-element">
-              <img src="img/img_gallery/image_3.jpg" alt="Image 3" />
-            </div>
-            <div class="gallery-element">
-              <img src="img/img_gallery/image_4.jpg" alt="Image 4" />
-            </div>
-            <div class="gallery-element">
-              <img src="img/img_gallery/image_5.jpg" alt="Image 5" />
-            </div>
-            <div class="gallery-element">
-              <img src="img/img_gallery/image_6.jpg" alt="Image 6" />
-            </div>
-            <div class="gallery-element">
-              <img src="img/img_gallery/image_7.jpg" alt="Image 7" />
-            </div>
-            <div class="gallery-element">
-              <p>Beauty Fashion Culture</p>
-            </div>
-          </div>
-        </div>
-        <!-- /intro-inner -->
-      </div>
-      <!-- /container -->
-    </div>
-    <!-- /intro -->
-  </body>
+        <div class="section">
+            <div class="container">
+                
+                <div class="section__header">
+                    <aside class="aside aside--left">
+                        <div class="wave-shape">
+                            <img src="assets/img/section__header/wave_shape.png" alt="Wave Shape">
+                        </div>
+                        <div class="font-circle">
+                            <img src="assets/img/section__header/font_circle.png" alt="Font Circle">
+                        </div>
+                    </aside>
+                    <div class="content">
+                        <h1 class="content__title">Your ultimate fashion outfits</h1>
+                        <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus</p>
+                        <a class="content__btn" href="#">Explore</a>
+                    </div>
+                    <aside class="aside aside--right">
+                        <div class="wave-shape">
+                            <img src="assets/img/section__header/wave_shape.png" alt="Wave Shape">
+                        </div>
+                        <div class="font-circle">
+                            <img src="assets/img/section__header/font_circle.png" alt="Font Circle">
+                        </div>
+                    </aside>
+                </div>
+
+                <div class="section__inner">
+                    <div class="image__gallery">
+                        <div class="gallery__element">
+                            <p class="gallery__text">Exclusive gifts. Insider access. Special events.</p>
+                        </div>
+                        <div class="gallery__element">
+                            <img src="assets/img/image__gallery/1.jpg" alt="Image 1">
+                        </div>
+                        <div class="gallery__element">
+                            <img src="assets/img/image__gallery/2.jpg" alt="Image 2">
+                        </div>
+                        <div class="gallery__element">
+                            <img src="assets/img/image__gallery/3.jpg" alt="Image 3">
+                        </div>
+                        <div class="gallery__element">
+                            <img src="assets/img/image__gallery/4.jpg" alt="Image 4">
+                        </div>
+                        <div class="gallery__element">
+                            <img src="assets/img/image__gallery/5.jpg" alt="Image 5">
+                        </div>
+                        <div class="gallery__element">
+                            <img src="assets/img/image__gallery/6.jpg" alt="Image 6">
+                        </div>
+                        <div class="gallery__element">
+                            <img src="assets/img/image__gallery/7.jpg" alt="Image 7">
+                        </div>
+                        <div class="gallery__element">
+                            <p class="gallery__text">Beauty Fashion Culture</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- /.container -->
+        </div> <!-- /.section-->
+
+    </div> <!-- /.page-container -->
+</body>
 </html>

@@ -1,95 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link rel="stylesheet" href="assets/style.css" />
 
     <!-- Font: Poppins [from https://fonts.google.com] -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="intro">
-      <div class="container">
-        <div class="intro-inner">
-          <div class="content">
-            <div class="content-inner">
-              <img src="img/color_blocks.png" alt="" />
-              <h1 class="content-title">
-                What’s next in <br />
-                your space travel
-              </h1>
-              <div class="content-text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Faucibus in libero risus semper habitant arcu eget. Et integer
-                  facilisi eget diam.
-                </p>
-              </div>
+    <!-- Font: Avenir [custom built] -->
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    
+    <title>Landing page 16</title>
+</head>
+<body>
+    <div class="page-container">
 
-              <div class="content-button">Explore</div>
-            </div>
-          </div>
+        <div class="section">
+            <div class="container">
+                <div class="section__inner">
 
-          <div class="list">
-            <div class="list-element">
-              <img
-                class="list-icon"
-                src="img/insights_icon.png"
-                alt="Insights Icon"
-              />
-              <h4 class="list-title">Planets</h4>
-              <p class="list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-            <div class="list-element">
-              <img
-                class="list-icon"
-                src="img/insights_icon.png"
-                alt="Insights Icon"
-              />
-              <h4 class="list-title">Interstellar</h4>
-              <p class="list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-            <div class="list-element">
-              <img
-                class="list-icon"
-                src="img/insights_icon.png"
-                alt="Insights Icon"
-              />
-              <h4 class="list-title">Wormhole</h4>
-              <p class="list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-            <div class="list-element">
-              <img
-                class="list-icon"
-                src="img/insights_icon.png"
-                alt="Insights Icon"
-              />
-              <h4 class="list-title">Planets</h4>
-              <p class="list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- /intro-inner -->
-      </div>
-      <!-- /container -->
-    </div>
-    <!-- /intro -->
-  </body>
+                    <div class="content">
+                        <div class="content__header">
+                            <img class="color-blocks" src="assets/img/color_blocks.png" alt="Color Blocks">
+                            <h1 class="content__title">What’s next in <br> your space travel</h1>
+                        </div>
+                        <div class="content__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu eget. Et integer facilisi eget diam.</p>
+                        </div>
+                        <a class="content__btn" href="#">Explore</a>
+                    </div>
+
+                    <div class="list">
+                        <div class="list__element">
+                            <img class="list__icon" src="assets/img/insights_icon.png" alt="Insights Icon">
+                            <h4 class="list__title">Planets</h4>
+                            <p class="list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="list__element">
+                            <img class="list__icon" src="assets/img/insights_icon.png" alt="Insights Icon">
+                            <h4 class="list__title">Interstellar</h4>
+                            <p class="list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="list__element">
+                            <img class="list__icon" src="assets/img/insights_icon.png" alt="Insights Icon">
+                            <h4 class="list__title">Wormhole</h4>
+                            <p class="list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="list__element">
+                            <img class="list__icon" src="assets/img/insights_icon.png" alt="Insights Icon">
+                            <h4 class="list__title">Time</h4>
+                            <p class="list__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+
+                </div> <!-- /.section__inner -->
+            </div> <!-- /.container -->
+        </div> <!-- /.section-->
+
+    </div> <!-- /.page-container -->
+</body>
 </html>

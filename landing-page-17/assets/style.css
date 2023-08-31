@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+
+    font-family: "avenirroman", sans-serif;
+    font-size: 24px;
+    color: #252525;
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+
+
+/* Container */
+
+.page-container {
+    width: 100%;
+    max-width: 1440px;
+
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1312px;
+
+    margin: 0 auto;
+}
+
+
+
+/* Section */
+
+.section__inner {
+    padding: 64px 0;
+}
+
+.section__img {
+    margin-bottom: 40px;
+}
+
+.section__img img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Content */
+
+.content {
+    width: 695px;
+    margin: 0 auto 56px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.content__title {
+    font-size: 56px;
+    line-height: 84px;
+    font-weight: 600;
+}
+
+.content__text {
+    font-family: 'avenirroman', sans-serif;
+    opacity: 0.8;
+}
+
+.content__btn {
+    padding: 24px 48px;
+
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+
+    background: #252525;
+    border-radius: 36px;
+}
+
+/* List */
+
+.list {
+    margin-bottom: -100px;
+    padding: 40px 64px;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 72px;
+
+    background: #fff;
+    border-radius: 48px;
+}
+
+.list__element {
+    width: 176px;
+}
+
+.list__title {
+    font-weight: 900;
+}
+
+.list__text {
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.list__title::after {
+    content: "";
+    display: block;
+    width: 66px;
+    height: 4px;
+    margin: 12px 0;
+    background: #252525;
+}
+
+
+
+/* Image Gallery */
+
+.image__gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery__element {
+    width: 411px;
+    height: 344px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: auto;
+}
