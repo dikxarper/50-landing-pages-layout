@@ -34,7 +34,7 @@ p {
 .intro {
   padding: 100px 0 64px;
 
-  background-image: url("img/hero_image.jpg");
+  background-image: url("assets/img/hero_image.jpg");
   background-repeat: no-repeat;
   background-position: top right;
 }
